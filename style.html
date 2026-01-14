@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <title>XAMIT OTA — Tikuv Sexi</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="hero">
+  <div class="container hero-content">
+    <div class="hero-text">
+      <h1>XAMIT OTA</h1>
+      <p class="subtitle">Professional tikuv va ishlab chiqarish</p>
+      <p>Har xil kiyimlar, forma va maxsus buyurtmalar. Tez, sifatli va arzon.</p>
+      <button class="btn">Buyurtma berish</button>
+    </div>
+    <div class="hero-image">
+      <div class="img-placeholder"><img src="img/hamit ota.jpg"></div>
+    </div>
+  </div>
+</header>
+
+<section class="services container">
+  <h2>Xizmatlarimiz</h2>
+  <div class="service-cards">
+    <div class="card">🧵 Maxsus kiyimlar</div>
+    <div class="card">👕 Ommaviy tikuv</div>
+    <div class="card">🏭 Korxona formasi</div>
+  </div>
+</section>
+
+<section class="why container">
+  <h2>Nega biz?</h2>
+  <div class="why-grid">
+    <div class="why-card">10+ yil tajriba</div>
+    <div class="why-card">Tez tayyorlash</div>
+    <div class="why-card">Arzon narx</div>
+    <div class="why-card">Sifat kafolati</div>
+  </div>
+</section>
+
+<section class="contact container">
+  <h2>Buyurtma berish</h2>
+  <form id="contactForm">
+    <input type="text" placeholder="Ismingiz" required>
+    <input type="tel" placeholder="Telefon" required>
+    <textarea placeholder="Nima tikmoqchisiz?" required></textarea>
+    <button type="submit" class="btn">Yuborish</button>
+  </form>
+</section>
+
+<script>
+document.getElementById("contactForm").addEventListener("submit", function(e){
+  e.preventDefault();
+  alert("Buyurtmangiz yuborildi!");
+});
+</script>
+
+</body>
+</html>
